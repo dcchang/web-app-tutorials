@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "tictactoeangular-e760a": {
+      "hosting": {
+        "angularapp": [
+          "tictactoeangular-e760a"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "tictactoeangular-e760a"
+  }
+}

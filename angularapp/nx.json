@@ -1,0 +1,40 @@
+{
+  "npmScope": "angularapp",
+  "affected": {
+    "defaultBase": "main"
+  },
+  "implicitDependencies": {
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    ".eslintrc.json": "*"
+  },
+  "tasksRunnerOptions": {
+    "default": {
+      "runner": "@nrwl/nx-cloud",
+      "options": {
+        "cacheableOperations": [
+          "build",
+          "lint",
+          "test",
+          "e2e"
+        ],
+        "accessToken": "OGViM2FmYjMtZTBmNC00ZDQ4LWI0OWUtMjU0YjQ4Yjk4MTRjfHJlYWQtd3JpdGU="
+      }
+    }
+  },
+  "targetDependencies": {
+    "build": [
+      {
+        "target": "build",
+        "projects": "dependencies"
+      }
+    ]
+  },
+  "workspaceLayout": {
+    "appsDir": "projects",
+    "libsDir": "projects"
+  },
+  "defaultProject": "angularapp"
+}
