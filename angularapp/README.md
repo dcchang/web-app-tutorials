@@ -1,6 +1,6 @@
 # Angularapp
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.3. I followed this [Fireship.io tutorial](https://www.youtube.com/watch?v=G0bBLvWXBvc).
 
 ## Development server
 
